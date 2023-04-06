@@ -1,2 +1,2 @@
-# Intune
-Microsoft Endpoint Manager / Intune 
+# Microsoft Endpoint Manager / Intune 
+
