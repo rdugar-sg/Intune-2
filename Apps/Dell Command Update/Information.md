@@ -18,7 +18,7 @@ Install Behavior: System
 Device restart behaviour: App install may force a device restart  
 
 ## Requirements
-Operating system architecture: x32 or x64  
+Operating system architecture: x64  
 Minimum operating system: Windows 10 1909  
 Disk space required (MB): *No Value*  
 Physical memory required (MB): *No Value*  
