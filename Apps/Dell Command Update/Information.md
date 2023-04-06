@@ -1,5 +1,6 @@
 ## App information
 Name: Dell Command Update  
+Description: Dell Command Update provides a 2-click solution for getting all the latest drivers, firmware, and BIOS updates for your commercial client systems. It can also be scheduled to run automatically.  
 Publisher: Dell Inc  
 Version: 4.8.0  
 Category: Computer Management  
