@@ -22,7 +22,7 @@ if ((Test-Path -Path $AppExpectedPath) -eq $true)
     }
 } else {
     Write-Output "Installing $AppName"
-    Start-Process -FilePath "VSCodeUserSetup-x64-1.77.1.exe" -ArgumentList " /VERYSILENT /SUPPRESSMSGBOXES /CLOSEAPPLICATIONS /MERGETASKS=!runcode,desktopicon" -WindowStyle Hidden -Wait 
+    Start-Process -FilePath "VSCodeUserSetup-x64-1.77.1.exe" -ArgumentList " /VERYSILENT /SUPPRESSMSGBOXES /CLOSEAPPLICATIONS /MERGETASKS=!runcode,!desktopicon" -WindowStyle Hidden -Wait 
 }
 
     
