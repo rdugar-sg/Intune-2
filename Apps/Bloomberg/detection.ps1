@@ -1,3 +1,4 @@
+function Get-AppVersion {
 [CmdletBinding()]
     param (
         [Parameter(Mandatory)]
