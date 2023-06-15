@@ -1,0 +1,30 @@
+Name: New York IP Printer Configuration
+Publisher: 3G Capital, Inc
+Category: Computer Management
+Show as featured app: No
+Logo: See logo.png
+Info URL:
+
+Install: install.cmd
+Uninstall: uninstall.cmd
+Install behavior: System
+
+OS Requirement: 64bit
+Min OS Requirement: Windows 1809
+
+Detection Rules:
+
+Rule Type: Registry
+Key Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\TOSHIBA e-STUDIO5516AC
+Value Name: Name
+Detection Method: String Comparison
+Operator: Equals
+Value: TOSHIBA e-STUDIO5516AC
+
+Rule Type: Registry
+Key Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet M506dn
+Value Name: Name
+Detection Method: String Comparison
+Operator: Equals
+Value: HP LaserJet M506dn
+
