@@ -61,4 +61,9 @@ if ((Test-Path -Path $AppExpectedPath) -eq $true) {
      Write-Output "Installing $AppName"
 
      Start-Process -FilePath "sotr114_5_80.exe" -ArgumentList ' /s CONN_TYPE=Internet ' -Wait
+     
+     # Remove desktop icon.
+     if ((Test-Path -Path "C:\Users\Public\Desktop\Bloomberg.lnk") -eq $true) {
+         Remove-Item -Path "C:\Users\Public\Desktop\Bloomberg.lnk" -Force -ErrorAction SilentlyContinue
+     }
 }

@@ -1,3 +1,4 @@
+function Get-AppVersion {
 [CmdletBinding()]
     param (
         [Parameter(Mandatory)]
@@ -35,7 +36,7 @@ if ((Test-Path -Path $AppExpectedPath) -eq $false)
     exit 1 # Application not detected.
 }
 
-$AppInstalledVersion = GetAppVersion -Path $AppExpectedPath
+$AppInstalledVersion = Get-AppVersion -Path $AppExpectedPath
 
 if ([System.Version]$AppInstalledVersion -ge [System.Version]$AppExpectedVersion) {
     Write-Output "Success! The installed version of $AppName $AppInstalledVersion is equal or newer than expected version $AppExpectedVersion."
