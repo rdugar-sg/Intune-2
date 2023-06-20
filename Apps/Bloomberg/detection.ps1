@@ -11,10 +11,10 @@ function Get-AppVersion {
             return "0.0.0.0"
         }
     
-        $Major=$(Get-ChildItem $Path | %{$_.VersionInfo} | Select-Object *).FileVersionRaw.Major
-        $Minor= $(Get-ChildItem $Path | %{$_.VersionInfo} | Select-Object *).FileVersionRaw.Minor
-        $Build= $(Get-ChildItem $Path | %{$_.VersionInfo} | Select-Object *).FileVersionRaw.Build
-        $Revision= $(Get-ChildItem $Path | %{$_.VersionInfo} | Select-Object *).FileVersionRaw.Revision
+        $Major=$(Get-ChildItem $Path | ForEach-Object{$_.VersionInfo} | Select-Object *).FileVersionRaw.Major
+        $Minor= $(Get-ChildItem $Path | ForEach-Object{$_.VersionInfo} | Select-Object *).FileVersionRaw.Minor
+        $Build= $(Get-ChildItem $Path | ForEach-Object{$_.VersionInfo} | Select-Object *).FileVersionRaw.Build
+        $Revision= $(Get-ChildItem $Path | ForEach-Object{$_.VersionInfo} | Select-Object *).FileVersionRaw.Revision
 
         return "$Major.$Minor.$Build.$Revision"
     }
