@@ -1,0 +1,33 @@
+{
+    "@odata.type":  "#microsoft.graph.iosCompliancePolicy",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "3bb3ab25-93e4-4a80-a5c8-e9b75e4001c0",
+    "createdDateTime":  "2019-08-13T12:42:54.4373541Z",
+    "description":  "Default Corporate BYOD Compliance Policy for iOS/iPadOS devices.",
+    "lastModifiedDateTime":  "2023-08-10T21:54:07.7321751Z",
+    "displayName":  "iOS/iPadOS - Corporate BYOD Compliance Policy",
+    "version":  14,
+    "passcodeBlockSimple":  true,
+    "passcodeExpirationDays":  65535,
+    "passcodeMinimumLength":  4,
+    "passcodeMinutesOfInactivityBeforeLock":  5,
+    "passcodeMinutesOfInactivityBeforeScreenTimeout":  5,
+    "passcodePreviousPasscodeBlockCount":  5,
+    "passcodeMinimumCharacterSetCount":  0,
+    "passcodeRequiredType":  "numeric",
+    "passcodeRequired":  true,
+    "osMinimumVersion":  "14",
+    "osMaximumVersion":  null,
+    "osMinimumBuildVersion":  null,
+    "osMaximumBuildVersion":  null,
+    "securityBlockJailbrokenDevices":  true,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "advancedThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "managedEmailProfileRequired":  false,
+    "restrictedApps":  [
+
+                       ]
+}

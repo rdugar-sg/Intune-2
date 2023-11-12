@@ -1,0 +1,558 @@
+{
+    "name":  "Windows - Power and Sleep Settings",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_dcstartmenubuttonaction_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_dcstartmenubuttonaction_2_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_dcstartmenubuttonaction_2_selectdcstartmenubuttonaction",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_admx_power_dcstartmenubuttonaction_2_selectdcstartmenubuttonaction_0",
+                                                                                                                            "children":  [
+
+                                                                                                                                         ]
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_acstartmenubuttonaction_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_acstartmenubuttonaction_2_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_acstartmenubuttonaction_2_selectacstartmenubuttonaction",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_admx_power_acstartmenubuttonaction_2_selectacstartmenubuttonaction_0",
+                                                                                                                            "children":  [
+
+                                                                                                                                         ]
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_diskdcpowerdowntimeout_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_diskdcpowerdowntimeout_2_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_diskdcpowerdowntimeout_2_enterdiskdcpowerdowntimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  0
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_diskacpowerdowntimeout_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_diskacpowerdowntimeout_2_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_diskacpowerdowntimeout_2_enterdiskacpowerdowntimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  0
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_powerthrottlingturnoff",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_powerthrottlingturnoff_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_inboxactiveschemeoverride_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_inboxactiveschemeoverride_2_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_inboxactiveschemeoverride_2_inboxactiveschemeoverrideenter",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_admx_power_inboxactiveschemeoverride_2_inboxactiveschemeoverrideenter_381b4222-f694-41f0-9685-ff5bb260df2e",
+                                                                                                                            "children":  [
+
+                                                                                                                                         ]
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_allowsystempowerrequestdc",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_allowsystempowerrequestdc_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_allowsystempowerrequestac",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_allowsystempowerrequestac_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_hibernatetimeoutonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_hibernatetimeoutonbattery_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_hibernatetimeoutpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_hibernatetimeoutpluggedin_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_standbytimeoutonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_standbytimeoutonbattery_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_standbytimeoutonbattery_enterdcstandbytimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  1800
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_standbytimeoutpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_standbytimeoutpluggedin_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_standbytimeoutpluggedin_enteracstandbytimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  10800
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_dccriticalsleeptransitionsdisable_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_dccriticalsleeptransitionsdisable_2_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_power_accriticalsleeptransitionsdisable_2",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_power_accriticalsleeptransitionsdisable_2_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_displayofftimeoutonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_displayofftimeoutonbattery_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_displayofftimeoutonbattery_entervideodcpowerdowntimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  600
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_displayofftimeoutpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_displayofftimeoutpluggedin_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_displayofftimeoutpluggedin_entervideoacpowerdowntimeout",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  900
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  900
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_allowhibernate",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_allowhibernate_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_energysaverbatterythresholdonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  40
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_energysaverbatterythresholdpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  0
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectlidcloseactiononbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectlidcloseactiononbattery_2",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectlidcloseactionpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectlidcloseactionpluggedin_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectpowerbuttonactiononbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectpowerbuttonactiononbattery_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectpowerbuttonactionpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectpowerbuttonactionpluggedin_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectsleepbuttonactiononbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectsleepbuttonactiononbattery_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_selectsleepbuttonactionpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_selectsleepbuttonactionpluggedin_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_turnoffhybridsleeponbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_turnoffhybridsleeponbattery_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_turnoffhybridsleeppluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_power_turnoffhybridsleeppluggedin_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_unattendedsleeptimeoutonbattery",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  1800
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_power_unattendedsleeptimeoutpluggedin",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  7200
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_settings_allowpowersleep",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_settings_allowpowersleep_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

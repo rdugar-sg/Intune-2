@@ -1,0 +1,33 @@
+{
+    "name":  "Windows 10 - Configure Microsoft Defender SmartScreen",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown_warn",
+                                                                                                                            "children":  [
+
+                                                                                                                                         ]
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

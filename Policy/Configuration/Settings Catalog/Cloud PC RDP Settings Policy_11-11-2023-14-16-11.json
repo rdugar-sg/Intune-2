@@ -1,0 +1,36 @@
+{
+    "name":  "Cloud PC RDP Settings Policy",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_admx_terminalserver_ts_client_clipboard",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_admx_terminalserver_ts_client_clipboard_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

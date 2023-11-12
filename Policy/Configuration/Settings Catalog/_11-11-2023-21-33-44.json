@@ -1,0 +1,138 @@
+{
+    "name":  "Corporate Antivirus Policy",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm,microsoftSense",
+    "templateReference":  {
+                              "templateId":  "804339ad-1553-4478-a742-138fb5807418_1"
+                          },
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_allowcloudprotection",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "7da139f1-9b7e-407d-853a-c2e5037cdc70"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "16fe8afd-67be-4c50-8619-d535451a500c",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_allowemailscanning",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "b0d9ee81-de6a-4750-86d7-9397961c9852"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_allowemailscanning_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "fdf107fd-e13b-4507-9d8f-db4d93476af9",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_realtimescandirection",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "f5ff00a4-e5c7-44cf-a650-9c7619ff1561"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_realtimescandirection_0",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "6b4e3497-cfbb-4761-a152-de935bbf3f07",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_scanparameter",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "27ca2652-46f3-4cc7-83f2-bf85ff722d84"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_scanparameter_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "70c8f42e-ee6a-4ef1-a070-cb0e9d472581",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_schedulescanday",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "087d3362-7e78-4983-96bc-1f4ea183f0e4"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_schedulescanday_0",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "7f4d9dda-6d48-4353-90ca-9fa7164c7215",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_signatureupdateinterval",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "89879f27-6b7d-44d4-a08e-0a0de3e9663d"
+                                                                                      },
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "value":  8,
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "0af6bbed-a74a-4d08-8587-b16b10b774cb",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              }
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "f6394bc5-6486-4728-b510-555f5c161f2b"
+                                                                                      },
+                                                 "groupSettingCollectionValue":  [
+                                                                                     {
+                                                                                         "settingValueTemplateReference":  null,
+                                                                                         "children":  "   "
+                                                                                     }
+                                                                                 ]
+                                             }
+                     }
+                 ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "Windows Autopatch - Edge Update Channel Beta",
+    "description":  "Deploys Edge Beta Channel Updates. This policy is required by the Windows Autopatch service. Any changes you make to this policy will not be saved. Windows Autopatch will overwrite any changes.",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_part_targetchannel",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_part_targetchannel_beta",
+                                                                                                                            "children":  [
+
+                                                                                                                                         ]
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

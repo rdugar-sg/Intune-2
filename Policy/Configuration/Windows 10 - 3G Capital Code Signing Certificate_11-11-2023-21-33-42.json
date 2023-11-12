@@ -1,0 +1,19 @@
+{
+    "@odata.type":  "#microsoft.graph.windows81TrustedRootCertificate",
+    "id":  "d814cd50-d0fc-4a02-838d-744b23ea6798",
+    "lastModifiedDateTime":  "2022-11-08T20:36:19.5758598Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-11-08T20:36:19.5758598Z",
+    "description":  null,
+    "displayName":  "Windows 10 - 3G Capital Code Signing Certificate",
+    "version":  1,
+    "trustedRootCertificate":  "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",
+    "certFileName":  "3GCapital-CodeSigning.cer",
+    "destinationStore":  "userCertStoreIntermediate"
+}

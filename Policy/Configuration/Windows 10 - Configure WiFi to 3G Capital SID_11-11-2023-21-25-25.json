@@ -1,0 +1,29 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsWifiConfiguration",
+    "id":  "20b2e79a-47f8-468f-8807-2b8e43b24756",
+    "lastModifiedDateTime":  "2021-07-07T18:22:28.1500446Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-09-17T22:03:15.9794162Z",
+    "description":  "",
+    "displayName":  "Windows 10 - Configure WiFi to 3G Capital SID",
+    "version":  7,
+    "preSharedKey":  null,
+    "wifiSecurityType":  "wpa2Personal",
+    "meteredConnectionLimit":  "unrestricted",
+    "ssid":  "3G Capital",
+    "networkName":  "3G Capital",
+    "connectAutomatically":  true,
+    "connectToPreferredNetwork":  null,
+    "connectWhenNetworkNameIsHidden":  true,
+    "proxySetting":  "none",
+    "proxyManualAddress":  null,
+    "proxyManualPort":  null,
+    "proxyAutomaticConfigurationUrl":  null,
+    "forceFIPSCompliance":  false
+}

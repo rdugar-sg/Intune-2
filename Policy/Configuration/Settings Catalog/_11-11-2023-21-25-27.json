@@ -1,0 +1,9 @@
+{
+    "name":  "Windows Autopatch - Office Update Configuration [Test]",
+    "description":  "Sets Office Update Deadline. This policy is required by the Windows Autopatch service. Any changes you make to this policy will not be saved. Windows Autopatch will overwrite any changes.",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+
+                 ]
+}

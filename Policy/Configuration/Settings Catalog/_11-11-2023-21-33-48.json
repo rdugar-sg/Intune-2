@@ -1,0 +1,28 @@
+{
+    "name":  "Windows - Spotlight Configuration",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+                                                                            "children":  [
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=device_vendor_msft_policy_config_experience_allowwindowstips; settingInstanceTemplateReference=; choiceSettingValue=}",
+                                                                                             "@{@odata.type=#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance; settingDefinitionId=user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen; settingInstanceTemplateReference=; choiceSettingValue=}"
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

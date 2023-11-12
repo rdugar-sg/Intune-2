@@ -1,0 +1,28 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "3f47defb-741f-443d-8573-fb117fe9272b",
+    "lastModifiedDateTime":  "2023-03-22T14:26:46.9013951Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2023-03-22T14:25:34.8898855Z",
+    "description":  "This policy setting allows retrieving the Azure AD Kerberos Ticket Granting Ticket during logon in order to access Azure file shares from an Azure AD-joined VM for FSLogix profiles.",
+    "displayName":  "Session Host - Enable Azure AD Kerberos",
+    "version":  2,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "CloudKerberosTicketRetrievalEnabled",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Kerberos/CloudKerberosTicketRetrievalEnabled",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

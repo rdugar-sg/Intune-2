@@ -1,0 +1,36 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "3a60798b-7bae-4da0-aff6-5257413d6d01",
+    "lastModifiedDateTime":  "2022-08-23T14:15:46.647018Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2022-08-18T19:47:12.082604Z",
+    "description":  "Hide license key for all devices.",
+    "displayName":  "Windows 10 - Foxit PDF Editor v12 ADMX",
+    "version":  4,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Foxit",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/FoxitPDFEditor/Policy/FoxitPDFEditor",
+                            "secretReferenceValueId":  "806901f4-4466-46ca-94cc-4c36221bcf77_3a60798b-7bae-4da0-aff6-5257413d6d01_b5c8112e-2e6b-4ed3-8af9-02cfcbfdda91",
+                            "isEncrypted":  true,
+                            "value":  "****"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "HideActivationCode",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/FoxitPDFEditor~Policy~FOXIT~PREFERENCES/PREF_HideActivationCode",
+                            "secretReferenceValueId":  "806901f4-4466-46ca-94cc-4c36221bcf77_3a60798b-7bae-4da0-aff6-5257413d6d01_dc74c8bd-0387-4830-84ef-97a2ec741480",
+                            "isEncrypted":  true,
+                            "value":  "****"
+                        }
+                    ]
+}

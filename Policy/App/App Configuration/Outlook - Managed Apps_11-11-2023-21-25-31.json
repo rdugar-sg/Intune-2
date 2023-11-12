@@ -1,0 +1,124 @@
+{
+    "displayName":  "Outlook - Managed Apps",
+    "description":  "",
+    "createdDateTime":  "2021-09-23T14:43:05.2507767Z",
+    "lastModifiedDateTime":  "2023-08-29T13:59:53Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "A_d5050eac-891b-4ea7-bd2f-56dc9c2ae4fa",
+    "version":  "\"45043646-0000-0800-0000-64edf9d90000\"",
+    "deployedAppCount":  2,
+    "isAssigned":  true,
+    "targetedAppManagementLevels":  "unspecified",
+    "appGroupType":  "selectedPublicApps",
+    "customSettings":  [
+                           {
+                               "name":  "com.microsoft.outlook.Calendar.Notifications.IntuneMAMOnly",
+                               "value":  "0"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.Calendar.NativeSyncEnabled",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.Calendar.NativeSyncEnabled.UserChangeAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.Calendar.NativeSyncAvailable.IntuneMAMOnly",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.AddressAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.BirthdayAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.CompanyAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.DepartmentAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.EmailAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.InstantMessageAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.JobTitleAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.NicknameAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.NotesAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneHomeAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneHomeFaxAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneMobileAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneOtherAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhonePagerAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneWorkAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PhoneWorkFaxAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.PrefixAllowed",
+                               "value":  "true"
+                           },
+                           {
+                               "name":  "com.microsoft.outlook.ContactSync.SuffixAllowed",
+                               "value":  "true"
+                           }
+                       ],
+    "apps@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/targetedManagedAppConfigurations(\u0027A_d5050eac-891b-4ea7-bd2f-56dc9c2ae4fa\u0027)/apps",
+    "apps":  [
+                 {
+                     "id":  "com.microsoft.office.outlook.android",
+                     "version":  "1146701235",
+                     "mobileAppIdentifier":  {
+                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
+                                                 "packageId":  "com.microsoft.office.outlook"
+                                             }
+                 },
+                 {
+                     "id":  "com.microsoft.office.outlook.ios",
+                     "version":  "-518090279",
+                     "mobileAppIdentifier":  {
+                                                 "@odata.type":  "#microsoft.graph.iosMobileAppIdentifier",
+                                                 "bundleId":  "com.microsoft.office.outlook"
+                                             }
+                 }
+             ]
+}

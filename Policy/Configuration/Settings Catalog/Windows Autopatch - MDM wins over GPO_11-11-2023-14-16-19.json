@@ -1,0 +1,22 @@
+{
+    "name":  "Windows Autopatch - MDM wins over GPO",
+    "description":  "Sets MDM to win over GPO. This policy is required by the Windows Autopatch service. Any changes you make to this policy will not be saved. Windows Autopatch will overwrite any changes.",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_controlpolicyconflict_mdmwinsovergp",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_controlpolicyconflict_mdmwinsovergp_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}

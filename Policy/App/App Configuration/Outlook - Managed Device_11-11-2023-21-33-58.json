@@ -1,0 +1,48 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "id":  "d60be580-4dd6-494d-bbf6-6d24fedd1537",
+    "targetedMobileApps":  [
+                               "b2590c1e-1ce2-4d0d-9806-5c64129578f7"
+                           ],
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "createdDateTime":  "2023-08-19T13:04:56.6163448Z",
+    "description":  "",
+    "lastModifiedDateTime":  "2023-08-19T13:04:56.6163448Z",
+    "displayName":  "Outlook - Managed Device",
+    "version":  1,
+    "encodedSettingXml":  null,
+    "settings":  [
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.EmailAccountName",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{username}}"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.EmailAddress",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{mail}}"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.EmailUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{userprincipalname}}"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.ServerHostName",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "https://outlook.office365.com/"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.AccountDomain",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "3G-Capital.com"
+                     },
+                     {
+                         "appConfigKey":  "com.microsoft.outlook.EmailProfile.AccountType",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "ModernAuth"
+                     }
+                 ]
+}

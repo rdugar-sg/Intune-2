@@ -1,0 +1,37 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "92c694b3-2571-40cd-aa8e-1865966cfb4f",
+    "lastModifiedDateTime":  "2023-04-27T13:37:59.6370248Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2023-03-27T15:24:58.6913514Z",
+    "description":  null,
+    "displayName":  "(NEEDED?) Windows - Additional Security Recommendations",
+    "version":  3,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Configure LSA protected process",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Hide Gaming",
+                            "description":  "Hide Gaming Under Settings App",
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Settings/PageVisibilityList",
+                            "secretReferenceValueId":  "806901f4-4466-46ca-94cc-4c36221bcf77_92c694b3-2571-40cd-aa8e-1865966cfb4f_99cda582-054d-472c-be2d-b203eaffd022",
+                            "isEncrypted":  true,
+                            "value":  "****"
+                        }
+                    ]
+}
