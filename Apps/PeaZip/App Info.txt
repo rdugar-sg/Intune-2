@@ -1,0 +1,24 @@
+Name: PeaZip
+Publisher: Giorgio Tani
+Category: Productivity
+Show as featured app: No
+Logo: See logo.png
+
+Install: install.cmd
+Uninstall: uninstall.cmd
+Install behavior: System
+
+OS Requirement: 64bit
+Min OS Requirement: Windows 1809
+
+Detection Rules:
+Search for file peazip.exe in folder: "%ProgramFiles%\PeaZip"
+Version: 9.5.0
+
+
+
+
+
+
+
+

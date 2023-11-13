@@ -97,7 +97,8 @@ Function Export-JSONData() {
       $JSON_Convert = $JSON1 | ConvertFrom-Json
       $displayName = $JSON_Convert.displayName
       $DisplayName = $DisplayName -replace '\<|\>|:|"|/|\\|\||\?|\*', "_"
-      $FileName_JSON = "$DisplayName" + "_" + $(get-date -f dd-MM-yyyy-H-mm-ss) + ".json"
+      #$FileName_JSON = "$DisplayName" + "_" + $(get-date -f dd-MM-yyyy-H-mm-ss) + ".json"
+      $FileName_JSON = "$DisplayName" + ".json"
       write-host "Export Path:" "$ExportPath"
       $JSON1 | Set-Content -LiteralPath "$ExportPath\$FileName_JSON"
       write-host "JSON created in $ExportPath\$FileName_JSON..." -f cyan
