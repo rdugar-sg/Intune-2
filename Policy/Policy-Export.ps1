@@ -509,19 +509,23 @@ else {
 
 
 #-------------------------------------------------------------------------------------------------------
-$DeviceConfigurationExportPath = "C:\Users\patri\OneDrive\Repo\Intune\Policy\Configuration"
+
+#$RootPath = "C:\Users\patri\OneDrive\Repo\Intune"
+$RootPath = "C:\Users\PLuijpers\source\repos\Intune"
+
+$DeviceConfigurationExportPath = $RootPath + "\Policy\Configuration"
 CheckExportPath -Path $DeviceConfigurationExportPath
 
-$SettingsCatalogExportPath = "C:\Users\patri\OneDrive\Repo\Intune\Policy\Configuration\Settings Catalog"
+$SettingsCatalogExportPath = $RootPath + "\Policy\Configuration\Settings Catalog"
 CheckExportPath -Path $SettingsCatalogExportPath
 
-$CompliancePolicyExportPath = "C:\Users\patri\OneDrive\Repo\Intune\Policy\Compliance"
+$CompliancePolicyExportPath = $RootPath + "\Policy\Compliance"
 CheckExportPath -Path $CompliancePolicyExportPath
 
-$ManagedAppProtectionExportPath = "C:\Users\patri\OneDrive\Repo\Intune\Policy\App\App Protection"
+$ManagedAppProtectionExportPath = $RootPath + "\Policy\App\App Protection"
 CheckExportPath -Path $ManagedAppProtectionExportPath
 
-$ManagedAppConfigurationExportPath = "C:\Users\patri\OneDrive\Repo\Intune\Policy\App\App Configuration"
+$ManagedAppConfigurationExportPath = $RootPath + "\Policy\App\App Configuration"
 CheckExportPath -Path $ManagedAppConfigurationExportPath
 
 
